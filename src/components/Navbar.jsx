@@ -4,8 +4,8 @@ import Logo from '../assets/images/logo.svg';
 const Navbar = () => {
   return (
     <Wrapper>
-      <div className='logo'>
-        <img src={Logo} alt='Fylo logo' />
+      <div>
+        <img src={Logo} alt='Fylo logo' className='logo' />
       </div>
       <div className='nav-list'>
         <ul className='nav-items'>
@@ -23,22 +23,19 @@ const Wrapper = styled.nav`
   justify-content: space-between;
   align-items: center;
   font-family: 'Raleway', sans-serif;
-  width: 100%;
-  padding: 1.25rem;
-
-  .logo {
-    height: 30px;
-  }
-
-  .nav-list {
-  }
+  padding: 1rem;
 
   .nav-items {
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
     list-style: none;
-    font-size: 14px;
-    margin-top: 2rem;
+    font-size: 12px;
+  }
+
+  .logo {
+    height: 28px;
   }
 
   @media (min-width: 750px) {
@@ -46,7 +43,7 @@ const Wrapper = styled.nav`
     margin: 0 auto;
 
     .logo {
-      height: 50px;
+      height: auto;
     }
 
     .nav-items {

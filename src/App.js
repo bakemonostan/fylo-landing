@@ -1,4 +1,5 @@
 // import Hero from './components/Hero';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -7,6 +8,9 @@ const App = () => {
       <header>
         <Navbar />
       </header>
+      <main>
+        <Hero />
+      </main>
     </div>
   );
 };
