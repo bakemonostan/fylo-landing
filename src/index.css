@@ -8,8 +8,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: antiquewhite;
-  background: var(--dark-blue-4);
+  background: var(--dark-blue-2);
+  color: var(--white);
 }
 
 :root {
@@ -21,4 +21,5 @@ body {
   --cyan-accent: hsl(176, 68%, 64%);
   --blue-accent: hsl(198, 60%, 50%);
   --error: hsl(0, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
 }

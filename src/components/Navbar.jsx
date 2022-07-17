@@ -19,11 +19,13 @@ const Navbar = () => {
 };
 
 const Wrapper = styled.nav`
+  background-color: var(--dark-blue-1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: 'Raleway', sans-serif;
   padding: 1rem;
+  width: 100%;
 
   .nav-items {
     display: flex;

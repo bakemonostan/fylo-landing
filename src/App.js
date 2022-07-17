@@ -1,6 +1,7 @@
 // import Hero from './components/Hero';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import SectionTwo from './components/SectionTwo';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       </header>
       <main>
         <Hero />
+        {/* <SectionTwo /> */}
       </main>
     </div>
   );
